@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea Sign-up Form</title>
+	<meta name= "Thinkful's practice sign-up form assignment"></meta>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+	<div class="signup-box">
+		<img src="logo.png" class="logo">
+		
+		<div class="signuphead">Sign Up</div>
+		<form class="myform" action="/signup/" method:'post'>
+			<label for="email">Email</label>
+			<input placeholder='foo@bar.com' type="text" name='email' id='email' />
+
+			<label class="password" for="password">Password</label>
+			<input placeholder='123passw0rd' type="text" name='password' id='password' />
+			<button type="submit">Sign Up</button>
+
+
+			<p><a href="/forgot_password/new">Forgot password?</a></p>
+		</form>
+		
+	</div>
+<p class="footer">Already have an account? <a href="/login">Log in</a></p>
+		
+	
+
+</body>
+</html>
